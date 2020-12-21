@@ -1,0 +1,11 @@
+** Unix code to remove first column and to convert to text files **
+
+sed -r 's/^[^,]+,//' lang_id_train.csv > out_train1.txt
+sed -r 's/^[^,]+,//' lang_id_train.csv > out_train1.txt
+sed -r 's/^[^,]+,//' lang_id_train.csv > out_train1.txt
+
+Unix code to remove first row:-
+
+sed '1d' out_test1.txt > out_test1.txt
+sed '1d' out_test1.txt > out_test1.txt
+sed '1d' out_test1.txt > out_test1.txt

@@ -1,0 +1,7 @@
+** Code to install tensorflow in anaconda prompt **
+
+ Creating new environment - tensorenviron for the tensorflow
+	conda create –name tensorenviron
+ Tensorflow is then installed using the command
+	pip install tensorflow==1.14.0
+ 

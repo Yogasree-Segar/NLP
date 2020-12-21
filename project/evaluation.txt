@@ -1,0 +1,24 @@
+** Code to be executed in jupyter notebook **	
+	
+	Score of the train file
+		lr_model.score(X, y) 
+	Score of the test file
+		lr_model.score(X_test, y_test) 
+	Score of the eval file 
+		lr_model.score(X_eval, y_eval) 
+	Precision score
+		from sklearn.metrics import precision_score
+		precision_score(y_test, y_test_pred, average = None)
+
+	Recall measure -- For test file
+		from sklearn.metrics import recall_score
+		recall_score(y_test, y_test_pred, average = None)
+
+	F-measure -- For test file
+		from sklearn.metrics import precision_recall_fscore_support
+		precision_recall_fscore_support(y_test, y_test_pred, average = None)
+	
+	confusion matrix -- For test file
+		from sklearn.metrics import confusion_matrix
+		cm = confusion_matrix(y_test, y_test_pred)
+		print(cm) 
